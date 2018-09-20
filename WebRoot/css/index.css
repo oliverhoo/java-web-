@@ -1,0 +1,354 @@
+@CHARSET "UTF-8";
+@import url(reset.css);
+#header{
+    width:990px;
+    height:105px;
+}
+#top{
+    width:990px;
+    height:25px;
+    font-size:14px;
+    line-height: 25px;
+    border-bottom: 2px solid lightgrey;
+    margin-bottom: 15px;
+    font-family: "宋体";
+}
+#top_bg{
+    background: url(./back_bg.gif);
+}
+#top span{
+    float:right;
+}
+#top a{
+    color:#22447b;
+}
+#logo{
+    width:259px;
+    height: 50px;
+    background-image: url(./logo.gif);
+    float:left;
+    margin-bottom: 20px;
+}
+#search{
+    margin-left:40px;
+    height: 30px;
+    width:500px;
+    float:left;
+}
+#search #content{
+    width:410px;
+    height:28px;
+    border:3px solid red;
+}
+#search #submit{
+    width:70px;
+    height:28px;
+    background: orange;
+    border:none;
+    font-weight: bold;
+    float:right;
+    position:relative;
+    right:88px;
+    top: 2px;
+}
+#header #shopcar{
+    width: 131px;
+    height: 29px;
+    float:right;
+    background-image: url(./cartinfo.gif);
+    font-size: 14px;
+    text-align: center;
+    line-height: 29px;
+}
+#nav{
+    clear: both;
+    width: 990px;
+    height:38px;
+    background: red;
+}
+
+#nav li .navlink{
+    display: block;
+    float:left;
+    width:120px;
+    height: 38px;
+    line-height: 38px;
+    color:white;
+    text-align: center;
+}
+#nav li .navlink:hover{
+    background:red;
+}
+#nav1{
+    clear: both;
+    width: 780px;
+    height:38px;
+    background: red;
+}
+
+#nav1 li .navlink1{
+    display: block;
+    float:right;
+    width:80px;
+    height: 38px;
+    line-height: 38px;
+    color:white;
+    text-align: center;
+}
+#nav1 li .navlink1:hover{
+    background:red;
+}
+#nav1 li .navlink2{
+    display: block;
+    float:left;
+    width:120px;
+    height: 38px;
+    line-height: 38px;
+    color:white;
+    text-align: center;
+}
+#nav1 li .navlink2:hover{
+    background:red;
+}
+#nav1 li .navlink3{
+    display: block;
+    float:left;
+    width:120px;
+    height: 38px;
+    line-height: 38px;
+    color:white;
+    text-align: center;
+    
+}
+#nav1 li .navlink3:hover{
+    background:red;
+}
+#nav3{
+    clear: both;
+    width: 990px;
+    height:150px;
+    background:white;
+    border: 1px solid #ccc;
+}
+
+#nav3 li .navlink3{
+    display: block;
+    float:left;
+    width:120px;
+    height: 38px;
+    line-height: 38px;
+    color:white;
+    text-align: center;
+}
+#nav3 li .navlink3:hover{
+    background:red;
+}
+   
+#main{
+    width:990px;
+    height: 1744px;
+    margin-top:20px;
+}
+
+#left{
+    width:200px;
+    height:1744px;
+    float:left;
+}
+
+.subtitle{
+    width:200px;
+    height: 27px;
+    background: red;
+    float:left;
+    background:red;
+    color:white;
+    text-indent:1em;
+    font-size: 14px;
+    font-weight:bold;
+    font-family: "宋体";
+    line-height: 27px;
+}
+.subtitle span{
+    float: right;
+    color:white;
+    font-size: 12px;
+    margin-right: 15px;
+}
+.left_part{
+    width:198px;
+    height: auto;
+    float:left; 
+    background-color: white;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.left_part h2{
+    padding: 8px 0 8px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial;
+}
+.left_part h2 a{
+    color:#424242;
+}
+
+.left_part li{
+    display: inline;
+    width: 75px;
+    height: 17px;
+    float: left;
+    margin:0 0 3px 10px;
+    font-size: 14px;
+}
+.left_part .shoplist{
+    background: url(bg.gif) no-repeat -287px -29px; 
+    display: block;
+    width: 75px;
+    height: 17px;
+    padding: 0 0 0 6px;
+    color: #424242;
+    margin-left: 14px;
+    font-family: Arial; 
+    font-size: 12px;    
+}
+.left_part .toptitle{
+    width:182px;
+    height:26px;
+    margin:0 0 3px 9px;
+    font-size: 12px;
+    line-height: 26px;
+    border-bottom:1px solid #e2e2e2;
+}
+.left_part .toptitle span{
+    font-weight: bold;
+    color:#F00;
+    padding: 0 7px 0 0;
+}
+.left_part .toptitle a{
+    color:#464646;
+}
+.left_part .toptitle .price{
+    display: inline;
+    color: #ff6c02;
+    font-weight: bold;
+    float: right;
+}
+.left_part .pinpai{
+    width: 180px;
+    height:150px;
+    padding: 10px 10px 0 10px;
+}
+.left_part img{
+    display: inline;
+    width: 78px;
+    height:38px;
+    border:1px solid #e6e6e6;
+    padding: 2px;
+}
+
+.leftpic img{
+    width:200px;
+    height: 350px;
+    margin-bottom: 10px;
+}
+
+.left_part .note{
+    width:182px;
+    height:42px;
+    border-bottom: 1px dashed #ccc;
+    margin:8px;
+    font-size: 12px;
+    color: grey;
+    line-height: 150%;
+}
+.left_part .note span{
+    color:#aeacac;
+    padding: 7px;
+}
+.left_part .shopnum{
+    width:182px;
+    padding: 8px;
+}
+
+.left_part .shopnum input{
+    margin-bottom: 8px;
+
+}
+.left_part .shopnum .shopnumSub{
+    width:99px;
+    height: 21px;
+    background: url(bg.gif) no-repeat -151px -48px; 
+    border: none;
+}
+
+#right{
+    width:780px;
+    height:1744px;
+    background: grey;
+    float:right;
+}
+#banner{
+    width:780px;    
+    height:327px;
+    background: white;
+    float: right;
+}
+.right_pic_box{
+    width: 780px;
+    height: 277px;
+    margin-bottom: 8px;
+    background:#FFE4C4;
+    float:right;
+}
+.right_pic_title{
+    width: 780px;
+    height: 27px;
+    background:red;
+    float: right;
+}
+#footer{
+    clear: both;
+    width:990px;
+    height: 40px;
+     background:#FFE4C4;
+    margin-bottom: 8px;
+}
+body{text-align:center}
+#divcss{margin:0 auto;border:1px solid#000;width:300px;height:100px}
+.fudong1
+{
+	float: left;
+}
+.pad{margin:10px;
+     border-color:#F0F0F0;border-width:3px;border-style:groove;   
+}
+.hh{
+    background:green;
+    height:40px;
+}
+#changeImg{
+background-image: url("../image/changeImg1.jpg");
+height:337px;width:880px;
+margin:auto;
+background-repeat: no-repeat;
+border: 1px solid black;
+}                
+var t=2;
+var timeSet=setInterval(change,3000);
+var changeImg=$("#changeImg");
+function change(){
+if(t==4){
+t=1;
+}
+if(t==1){  
+changeImg.css({backgroundImage:"url('../images/2.jpg')"});
+}
+if(t==2){
+changeImg.css({backgroundImage:"url('../images/1.jpg')"});
+}
+if(t==3){
+changeImg.css({backgroundImage:"url('../images/3.jpg')"});
+}
+t++;
+}
